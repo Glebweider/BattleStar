@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Roboto:wght@300;400&display=swap');
+
+.nav {
+    display: inline-flex;
+    position: fixed;
+    align-items: center;
+    background: #101011;
+    width: 100%;
+    height: 78px; 
+    justify-content: space-between;
+}
+.dow{
+    width: 44px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Money{
+    min-width: 85px;
+    max-width: 135px;
+    height: 48px;    
+    display: flex;
+    flex-direction: column;
+}
+.MoneyBal{
+    max-width: 135px;
+    min-width: 85px;
+}
+.BalanceUser{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FAC704;
+}
+.BalanceText{
+    height: 19px;
+    width: 55px;
+    color: #787878;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+.Plus{
+    margin-left: 8px;
+    width: 19.5px;
+    height: 19.5px;
+}
+.IconGame{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+.lefticon a{
+    margin-left: 5px;
+}
+
+.lefticon{
+    width: 150px;
+    height: 100%;
+    margin-left: 125px;
+    display: flex;
+    align-items: center;
+}
+.ButtonAuth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FAC704;
+    width: 191px;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #1A1A1C;
+}
+.Auth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 35px;
+}
+
+.nain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 70px;
+}
+.m {
+    width: 21px;
+    height: 21px;
+    background: #FAC704;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+.m a{
+    color: #101011;
+}
+.m1 a{
+    color: #101011;
+}
+.texti{    
+    border-radius: 4px;
+    color: #787878;
+    outline: 0;
+    border: 2px;
+    padding: 0px 0px 0px 38px;
+    height: 40px;
+    width: 234px;
+    background: #1D1D21 no-repeat 12px 10px;
+    background-size: auto 55%;
+}
+
+.nam {
+    color: #F8F8F8;
+    font-family: 'Iceland', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+.activeMenuButton{
+    background-color: #606060;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-left: 18px;
+    height: 50px;
+    max-width: 200px;
+    min-width: 90px;
+    border-radius: 4px;
+}
+.rank {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FAC704;
+}
+.setc{
+    width: 100%;
+    height: 44px;
+}
+
+.logo{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 65px;
+    height: 69px;
+}
+
+.do{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+	position: fixed;
+    padding-top: 5px;
+	left: 0;
+	width: 100px;
+	height: 100%;
+	padding: 0;
+    background: #101011;
+}
+.BlY{
+    width: 100%;
+    height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.do.active{
+    position: fixed;
+    top: 22px;
+    right: 20px;
+}
+.menu a{
+
+    width: 100%;
+    height: auto;
+}
+.menu a:hover{
+    transition-duration: 0.4s;
+    background: #FAC704;
+}
+.activeMenu{
+    display: none;
+}
+.dowmenu a:hover hr{
+    border: 1px solid #FAC704;;
+}
+
+.domenu2{ 
+    position: fixed;
+    margin-top: 72px;
+    width: 440px;
+    max-height: 218px;
+    background: rgba(26, 26, 28, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(60px);
+    border-radius: 4px;
+    margin-right: 265px;
+    min-height: 85px;
+    z-index: 1;
+}
+.avatardiv{
+    width: 50px;
+    height: 46px;
+    margin-right: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.UsernameAndRank{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+}
+.avatar{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+.domenu3{ 
+    position: fixed;
+    margin-top: 72px;
+    width: 340px;
+    max-height: 213px;
+    background: rgba(26, 26, 28, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(60px);
+    border-radius: 4px;
+    margin-right: 335px;
+    min-height: 85px;
+    z-index: 1;
+}
+.domenu{ 
+    position: fixed;
+    margin-top: 72px;
+    width: 220px;
+    height: 307px;
+    background: rgba(26, 26, 28, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(60px);
+    border-radius: 4px;
+    margin-right: 20px;
+    z-index: 1;
+}
+.message {    
+    background: #242424;
+    display: flex;
+    margin-left: 18px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.chat{
+    margin-left: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #242424;
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.messager{
+    display: flex;
+}
+.parmenu {
+    display: flex;
+    justify-content: flex-end;    
+}
+.dowmenu {
+    display: flex;
+    flex-direction: column;
+}
+
+.dowmenu a hr{
+    width: 90%;
+    border: 1px solid #989898;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.settings {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+}
+.ImgSettings{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.auth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+}
+.gb{
+    margin-top: 20px;
+}
